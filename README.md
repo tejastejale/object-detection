@@ -20,7 +20,7 @@ This project implements real-time object detection using the YOLOv3 model and Op
    ```
 2. Navigate to the project directory:
    ```bash
-   cd object-detection-opencv-master
+   cd object-detection
    ```
 3. Install the required libraries:
    ```bash
