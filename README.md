@@ -81,6 +81,8 @@ To isolate project dependencies and avoid conflicts with other Python installati
 
 ## Usage
 
+**for realTime:**
+
 1. Activate the virtual environment (if you created one).
 2. Open a terminal in the project directory.
 3. Run the following script:
@@ -90,6 +92,15 @@ To isolate project dependencies and avoid conflicts with other Python installati
 
 This script will open your webcam and display a live feed with bounding boxes and labels for detected objects.
 
+**for static** 
+
+1. Activate the virtual environment (if you created one).
+2. Open a terminal in the project directory.
+3. Run the following script:
+   ```bash
+   python static.py --image dog.jpg --config yolov3.cfg --weights yolov3.weights --classes yolov3.txt
+   ```
+   
 ## Project Structure
 
 The following files and folders are included in this project:
